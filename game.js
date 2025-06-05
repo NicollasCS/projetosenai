@@ -30,11 +30,11 @@ const checkEndGame = () => {
   const disabledCards = document.querySelectorAll('.disabled-card');
   console.log('Cartas desativadas:', disabledCards.length);
 
-  if (disabledCards.length === 30) {
+  if (disabledCards.length === 24) {
     clearInterval(this.loop);
   }
 
-if (disabledCards.length === 30) {
+if (disabledCards.length === 24) {
   clearInterval(this.loop);
 
   const name = spanPlayer.innerHTML;
