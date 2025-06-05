@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="reset.css"> <!--importar o css que tem a fonte do texto e as estilizacoes basicas-->
+  <link rel="stylesheet" href="login.css"> <!--importar o css que tem as estilizacoes mais complexas-->
+
+    <script defer src="login.js"></script> <!--importar o script do login--> <!--defer= carregar o css e o html antes do script porque pode bugar-->
+  <link rel="shortcut icon" href="cerebro.png" type="image/x-icon"> <!--shortcut icon=icone da pagina-->
+  <title>Jogo da Memória | Login</title> <!---->
+</head>
+
+<body>
+
+  <form class="login-form">
+
+    <div class="login__header">
+      <img src="cerebro.png" alt="brain icon">
+      <h1>Jogo da Memória</h1>
+    </div>
+ 
+      <input type="text" placeholder="Nome" class="login__input">
+      <button type="submit" class="login__button" disabled>Jogar</button>
+    
+  </form>
+
+</body>
+
+</html>

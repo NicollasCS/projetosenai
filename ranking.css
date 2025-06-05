@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P', monospace;
+  background-image: url(senai_imagem_back.png);
+  background-size: cover;
+  text-align: center;
+  padding: 40px;
+  color: #fff;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+  color: #ffd900;
+}
+
+.table-wrapper {
+  max-height: 200px;
+  overflow-y: auto;
+  margin: 0 auto;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  width: 320px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+thead {
+  background-color: #000000;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+th, td {
+  padding: 8px;
+  border-bottom: 5px solid #252525;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #333;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  margin: 20px auto;
+  font-size: 1.2em;
+  background: #333;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

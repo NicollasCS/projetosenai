@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css"><!--Puxa as estilizações do css-->
+  <link rel="stylesheet" href="game.css">
+
+  <script defer src="game.js"></script><!--Faz o mesmo mas com o script do site,game.js-->
+
+  <link rel="shortcut icon" href="cerebro.png" type="image/x-icon"><!--Imagem-->
+  <title>Memory Game</title>
+</head>
+
+<body>
+
+  <main>
+    <header>
+      <br>
+      <br>
+      <br>
+      <p>Jogo da Memória</p>
+      <br>
+      <br>
+      <br>
+      </header>
+    <div class="grid"></div>
+
+    <button class="reveal-all-button">Revelar Todas</button><!--Botão que revela todas as cartas por 4 segundos-->
+
+  </main>
+      <span class="player"></span><!--Esta class player repete o nome do jogador-->
+      <span>| Tempo: <span class="timer">00</span></span><!--E do lado fica o tempo de forma estática e o contador somando 1 segundo-->
+    <br>
+    <br>
+    <br>
+    <a href="ranking.html" class="ranking-button">Ver Ranking</a><!--Botão para ver o ranking-->
+    <a href="index.html" class="ranking-button">Login</a><!--E botão para voltar pra tela de login-->
+</body>
+
+</html>

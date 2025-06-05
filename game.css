@@ -1,0 +1,93 @@
+body {
+  background-image: url(senai_imagem_back.png);
+  background-size: cover;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.reveal-all-button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 12px;
+  background-color: #ffcc00;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.reveal-all-button:hover {
+  background-color: #ffaa00;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 10px;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.card {
+  width: 100%;
+  aspect-ratio: 4/4;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.card.reveal-card {
+  transform: rotateY(180deg);
+}
+
+.face {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  backface-visibility: hidden;
+}
+
+.front{
+    background-image: url(fiesc.png);
+    transform: rotateY(180deg);
+}
+.back {
+  background-image: url(backsenai.png);
+  background-color: #333;
+}
+
+span{
+  font-size: large;
+  color: white;
+}
+
+p{
+  text-align: center;
+  font-size: large;
+  color: white;
+}
+
+.ranking-button {
+ 
+  margin: 20px auto;
+  font-size: 1.2em;
+  color: #fff;
+  background: #333;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.timer{
+  margin: 20px auto;
+  font-size: 1.2em;
+  color: #fff;
+  background: #333;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
