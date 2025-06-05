@@ -15,10 +15,6 @@ const timer = document.querySelector('.timer');
   'franca',
   'chipre',
   'angola',
-  'colombia',
-  'argentina',
-  'brasil'
-
 ];
 
 const createElement = (tag, className) => {
